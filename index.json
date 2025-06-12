@@ -1,10 +1,11 @@
 [
   {
     "id": "auth-keksik-serves",
-    "name": "auth keksik servers",
+    "name": "Advanced Auth",
     "author": "blockmineJS",
-    "description": "Плагин для автоматической регистрации/авторизации и захода на портал на серверах MineBlaze, MasedWorld, DexLand, CheatMine",
+    "description": "Плагин для автоматической авторизации...",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-serves",
-    "icon": "key-round" 
+    "icon": "key-round",
+    "latestTag": "v1.0.0" 
   }
 ]
