@@ -6,7 +6,7 @@
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
-    "latestTag": "v1.0.3",
+    "latestTag": "v1.0.5",
     "tags": ["Авторизация", "Утилиты", "Популярное"],
     "supportedHosts": [
       "mc.mineblaze.net",
