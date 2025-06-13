@@ -55,7 +55,18 @@
     "repoUrl": "https://github.com/blockmineJS/welcome-message",
     "icon": "party-popper",
     "latestTag": "v1.0.0",
-    "tags": ["Чат"],
+    "tags": ["Чат", "Социальное"],
+    "supportedHosts": []
+  },
+  {
+    "id": "auto-messages",
+    "name": "auto messages",
+    "author": "blockmineJS",
+    "description": "Позволяет настраивать отправку циклических сообщений в чат через заданные интервалы времени. Идеально для рекламы или информирования.",
+    "repoUrl": "https://github.com/blockmineJS/autoMessages",
+    "icon": "messages-square",
+    "latestTag": "v1.0.0",
+    "tags": ["Чат", "Автоматизация", "Реклама"],
     "supportedHosts": []
   }
 ]
