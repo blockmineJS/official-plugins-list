@@ -38,7 +38,7 @@
     "description": "Парсит сообщения чата для MineBlaze, MasedWorld, CheatMine и DexLand, генерируя стандартизированные события.",
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
     "icon": "scan-line",
-    "latestTag": "v1.0.1",
+    "latestTag": "v1.0.2",
     "tags": ["Парсинг", "Утилиты", "Системный"],
     "supportedHosts": [
       "mc.mineblaze.net",
