@@ -84,5 +84,17 @@
       "mc.cheatmine.net",
       "mc.dexland.org"
     ]
+  },
+  {
+    "id": "clan-welcome",
+    "name": "clan welcome",
+    "author": "blockmineJS",
+    "description": "Приветствует игроков при входе в клан. Требует установки 'clan-events-keksik' и 'parser-keksik'.",
+    "repoUrl": "https://github.com/blockmineJS/clan-welcome",
+    "icon": "hand-heart",
+    "latestTag": "v1.0.0",
+    "tags": ["Клан", "Чат", "Социальное"],
+    "supportedHosts": [],
+    "dependencies": ["clan-events-keksik", "parser-keksik"]
   }
 ]
