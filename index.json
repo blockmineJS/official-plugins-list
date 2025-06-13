@@ -94,7 +94,12 @@
     "icon": "hand-heart",
     "latestTag": "v1.0.0",
     "tags": ["Клан", "Чат", "Социальное"],
-    "supportedHosts": [],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
     "dependencies": ["clan-events-keksik", "parser-keksik"]
   }
 ]
