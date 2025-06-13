@@ -76,7 +76,7 @@
     "description": "Системный плагин-парсер, который генерирует события о входе, выходе и исключении игроков из клана. Нужен для работы других плагинов.",
     "repoUrl": "https://github.com/blockmineJS/clan-events-keksik",
     "icon": "users-2",
-    "latestTag": "v1.0.7",
+    "latestTag": "v1.0.8",
     "tags": ["Парсинг", "Утилиты", "Системный", "Клан"],
     "supportedHosts": [
       "mc.mineblaze.net",
@@ -92,7 +92,7 @@
     "description": "Приветствует игроков при входе в клан. Требует установки 'clan-events-keksik' и 'parser-keksik'.",
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
     "icon": "hand-heart",
-    "latestTag": "v1.0.2",
+    "latestTag": "v1.0.3",
     "tags": ["Клан", "Чат", "Социальное"],
     "supportedHosts": [
       "mc.mineblaze.net",
