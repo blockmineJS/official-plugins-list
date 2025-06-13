@@ -17,9 +17,9 @@
   },
   {
     "id": "unlock-auth-keksik",
-    "name": "unlock keksik servers",
+    "name": "unlock auth keksik",
     "author": "blockmineJS",
-    "description": "Плагин автоматически вводит код /unlock, на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
+    "description": "Плагин автоматически вводит код /unlock на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
     "icon": "unlock",
     "latestTag": "v1.0.1",
@@ -33,7 +33,7 @@
   },
   {
     "id": "parser-keksik",
-    "name": "parsek keksik",
+    "name": "parser keksik",
     "author": "blockmineJS",
     "description": "Парсит сообщения чата для MineBlaze, MasedWorld, CheatMine и DexLand, генерируя стандартизированные события.",
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
@@ -46,5 +46,16 @@
       "mc.cheatmine.net",
       "mc.dexland.org"
     ]
+  },
+  {
+    "id": "welcome-message",
+    "name": "welcome message",
+    "author": "blockmineJS",
+    "description": "Отправляет случайное приветственное сообщение в чат, когда в игру заходит определённый игрок из настроенного списка.",
+    "repoUrl": "https://github.com/blockmineJS/welcome-message",
+    "icon": "party-popper",
+    "latestTag": "v1.0.0",
+    "tags": ["Чат"],
+    "supportedHosts": []
   }
 ]
