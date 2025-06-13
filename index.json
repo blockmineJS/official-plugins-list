@@ -92,7 +92,7 @@
     "description": "Приветствует игроков при входе в клан. Требует установки 'clan-events-keksik' и 'parser-keksik'.",
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
     "icon": "hand-heart",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "tags": ["Клан", "Чат", "Социальное"],
     "supportedHosts": [
       "mc.mineblaze.net",
