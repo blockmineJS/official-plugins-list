@@ -3,11 +3,22 @@
     "id": "auth-keksik-servers",
     "name": "auth keksik servers",
     "author": "blockmineJS",
-    "description": "Плагин для автоматической регистрации/авторизации и захода на портал на поддерживаемых серверах, таких как MineBlaze, MasedWorld и других.",
+    "description": "Плагин для автоматической регистрации/авторизации и захода на портал на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
     "latestTag": "v1.0.3",
     "tags": ["Авторизация", "Утилиты", "Популярное"],
+    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.dexland.org"]
+  },
+  {
+    "id": "unlock-auth-keksik",
+    "name": "unlock auth keksik",
+    "author": "blockmineJS",
+    "description": "Плагин автоматически вводит код /unlock, на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
+    "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
+    "icon": "unlock",
+    "latestTag": "v1.0.0",
+    "tags": ["Утилиты", "Автоматизация"],
     "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.dexland.org"]
   }
 ]
