@@ -101,5 +101,17 @@
       "mc.dexland.org"
     ],
     "dependencies": ["clan-events-keksik", "parser-keksik"]
+  },
+  {
+    "id": "clan-role-manager",
+    "name": "Clan Role Manager",
+    "author": "blockmineJS",
+    "description": "Ядро ролей клана. Автоматически выдает роль 'Member' и настраивает права для клановых плагинов.",
+    "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
+    "icon": "shield-check",
+    "latestTag": "v1.0.0",
+    "tags": ["Клан", "Утилиты", "Системный", "Ядро", "Права"],
+    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"],
+    "dependencies": ["parser-keksik", "clan-events-keksik"]
   }
 ]
