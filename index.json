@@ -22,7 +22,7 @@
     "description": "Плагин автоматически вводит код /unlock, на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
     "icon": "unlock",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "tags": ["Утилиты", "Автоматизация"],
     "supportedHosts": [
       "mc.mineblaze.net",
