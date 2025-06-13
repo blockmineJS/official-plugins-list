@@ -1,24 +1,50 @@
 [
   {
     "id": "auth-keksik-servers",
-    "name": "auth keksik servers",
+    "name": "Advanced Auth",
     "author": "blockmineJS",
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
     "latestTag": "v1.0.3",
     "tags": ["Авторизация", "Утилиты", "Популярное"],
-    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.dexland.org"]
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
   },
   {
     "id": "unlock-auth-keksik",
-    "name": "unlock auth keksik",
+    "name": "Unlock Helper",
     "author": "blockmineJS",
     "description": "Плагин автоматически вводит код /unlock, на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
     "icon": "unlock",
     "latestTag": "v1.0.0",
     "tags": ["Утилиты", "Автоматизация"],
-    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.dexland.org"]
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
+  },
+  {
+    "id": "parser-keksik",
+    "name": "parsek keksik",
+    "author": "blockmineJS",
+    "description": "Парсит сообщения чата для MineBlaze, MasedWorld, CheatMine и DexLand, генерируя стандартизированные события.",
+    "repoUrl": "https://github.com/blockmineJS/parser-keksik",
+    "icon": "scan-line",
+    "latestTag": "v1.0.0",
+    "tags": ["Парсинг", "Утилиты", "Системный"],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
   }
 ]
