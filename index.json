@@ -1,7 +1,7 @@
 [
   {
     "id": "auth-keksik-servers",
-    "name": "Advanced Auth",
+    "name": "auth keksik servers",
     "author": "blockmineJS",
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
@@ -17,7 +17,7 @@
   },
   {
     "id": "unlock-auth-keksik",
-    "name": "Unlock Helper",
+    "name": "unlock keksik servers",
     "author": "blockmineJS",
     "description": "Плагин автоматически вводит код /unlock, на поддерживаемых серверах, таких как MineBlaze, MasedWorld.",
     "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
