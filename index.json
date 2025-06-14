@@ -7,7 +7,7 @@
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
     "latestTag": "v1.0.5",
-    "category": "Автоматизация",
+    "categories": ["Автоматизация", "Утилиты"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -23,7 +23,7 @@
     "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
     "icon": "unlock",
     "latestTag": "v1.0.1",
-    "category": "Автоматизация",
+    "categories": ["Автоматизация", "Утилиты"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -39,7 +39,7 @@
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
     "icon": "https://raw.githubusercontent.com/blockmineJS/official-plugins-list/main/parser-icon.svg",
     "latestTag": "v1.0.2",
-    "category": "Ядро",
+    "categories": ["Ядро"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -55,7 +55,7 @@
     "repoUrl": "https://github.com/blockmineJS/welcome-message",
     "icon": "party-popper",
     "latestTag": "v1.0.0",
-    "category": "Чат",
+    "categories": ["Чат"],
     "supportedHosts": []
   },
   {
@@ -66,7 +66,7 @@
     "repoUrl": "https://github.com/blockmineJS/autoMessages",
     "icon": "messages-square",
     "latestTag": "v1.0.0",
-    "category": "Чат",
+    "categories": ["Чат", "Автоматизация"],
     "supportedHosts": []
   },
   {
@@ -77,7 +77,7 @@
     "repoUrl": "https://github.com/blockmineJS/clan-events-keksik",
     "icon": "users-2",
     "latestTag": "v1.0.8",
-    "category": "Клан",
+    "categories": ["Клан", "Ядро"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -93,7 +93,7 @@
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
     "icon": "hand-heart",
     "latestTag": "v1.0.3",
-    "category": "Клан",
+    "categories": ["Клан", "Чат"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -110,7 +110,7 @@
     "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
     "icon": "shield-check",
     "latestTag": "v1.0.0",
-    "category": "Ядро",
+    "categories": ["Ядро", "Клан", "Права"],
     "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"],
     "dependencies": ["parser-keksik", "clan-events-keksik"]
   }
