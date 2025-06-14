@@ -37,7 +37,7 @@
     "author": "blockmineJS",
     "description": "Парсит сообщения чата, генерируя стандартизированные события. Обязателен для многих плагинов.",
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
-    "icon": "/parser-icon.svg"
+    "icon": "/parser-icon.svg",
     "latestTag": "v1.0.2",
     "category": "Ядро",
     "supportedHosts": [
