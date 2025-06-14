@@ -133,7 +133,7 @@
     "repoUrl": "https://github.com/blockmineJS/fly-keksik",
     "icon": "feather",
     "latestTag": "v1.0.0",
-    "categories": ["Команды", "Утилиты"],
+    "categories": ["Команды"],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
