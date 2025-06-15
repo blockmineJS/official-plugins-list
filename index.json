@@ -16,22 +16,6 @@
     ]
   },
   {
-    "id": "unlock-auth-keksik",
-    "name": "unlock-auth-keksik",
-    "author": "blockmineJS",
-    "description": "Плагин автоматически вводит код /unlock на поддерживаемых серверах.",
-    "repoUrl": "https://github.com/blockmineJS/unlock-auth-keksik",
-    "icon": "unlock",
-    "latestTag": "v1.0.1",
-    "categories": ["Автоматизация", "Утилиты"],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ]
-  },
-  {
     "id": "parser-keksik",
     "name": "parser-keksik",
     "author": "blockmineJS",
