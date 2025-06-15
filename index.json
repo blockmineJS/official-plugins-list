@@ -2,11 +2,11 @@
   {
     "id": "auth-keksik-servers",
     "name": "auth-keksik-servers",
-    "author": "blockmineJS",
+    "author": "FurnyGo",
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
-    "latestTag": "v1.0.5",
+    "latestTag": "v1.0.6",
     "categories": ["Автоматизация", "Утилиты"],
     "supportedHosts": [
       "mc.mineblaze.net",
