@@ -35,7 +35,7 @@
     "id": "parser-keksik",
     "name": "parser-keksik",
     "author": "blockmineJS",
-    "description": "Парсит сообщения чата, генерируя стандартизированные события. Обязателен для многих плагинов.",
+    "description": "Парсит сообщения чата, генерируя стандартизированные события. Обязателен для многих плагинов для MineBlaze, MasedWorld, DexLand, CheatMine. Добавляет новые типы чата - global, clan",
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
     "icon": "https://raw.githubusercontent.com/blockmineJS/official-plugins-list/main/parser-icon.svg",
     "latestTag": "v1.0.7",
