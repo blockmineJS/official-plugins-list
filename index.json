@@ -116,7 +116,7 @@
     "description": "Добавляет команду /fly для серверов MineBlaze, MasedWorld, DexLand, CheatMine. Сама обрабатывает если кд. можно настраивать сообщения",
     "repoUrl": "https://github.com/blockmineJS/fly-keksik",
     "icon": "feather",
-    "latestTag": "v1.0.4",
+    "latestTag": "v1.0.5",
     "categories": ["Команды"],
     "supportedHosts": [
       "mc.mineblaze.net",
