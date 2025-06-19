@@ -125,5 +125,17 @@
       "mc.dexland.org"
     ],
     "dependencies": ["parser-keksik"]
-  }
+  },
+  {
+   "id": "base-commands",
+   "name": "Базове админ команды",
+   "author": "blockmineJS",
+   "description": "Даёт новые команды для использования: setblacklist, setgroup",
+   "repoUrl": "https://github.com/blockmineJS/base-commands",
+   "icon": "sliders-horizontal",
+   "latestTag": "v1.0.0",
+   "categories": ["Команды"],
+   "supportedHosts": [],
+   "dependencies": ["parser-keksik"]
+ }
 ]
