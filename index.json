@@ -93,7 +93,7 @@
     "description": "Ядро ролей клана. Автоматически выдает роль 'Member' и настраивает права.",
     "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
     "icon": "shield-check",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": ["Ядро", "Клан", "Права"],
     "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"],
     "dependencies": ["parser-keksik", "clan-events-keksik"]
