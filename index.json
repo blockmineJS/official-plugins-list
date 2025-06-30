@@ -76,7 +76,7 @@
     "description": "Приветствует игроков при входе в клан. Требует установки других плагинов.",
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
     "icon": "hand-heart",
-    "latestTag": "v1.0.4",
+    "latestTag": "v1.0.5",
     "categories": ["Клан", "Чат"],
     "supportedHosts": [
       "mc.mineblaze.net",
