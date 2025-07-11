@@ -38,7 +38,7 @@
     "description": "Отправляет приветствие, когда в игру заходит игрок из настроенного списка.",
     "repoUrl": "https://github.com/blockmineJS/welcome-message",
     "icon": "party-popper",
-    "latestTag": "v1.0.1",
+    "latestTag": "v1.0.2",
     "categories": ["Чат"],
     "supportedHosts": []
   },
