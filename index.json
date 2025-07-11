@@ -105,7 +105,7 @@
     "description": "Возвращает бота в безопасное место после принудительной телепортации от игроков без прав.",
     "repoUrl": "https://github.com/blockmineJS/anti-tp-keksik",
     "icon": "shield-ban",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": ["Утилиты"],
     "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"]
   },
