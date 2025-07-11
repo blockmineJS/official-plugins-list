@@ -133,7 +133,7 @@
    "description": "Даёт новые команды для использования: setblacklist, setgroup",
    "repoUrl": "https://github.com/blockmineJS/base-commands",
    "icon": "sliders-horizontal",
-   "latestTag": "v1.0.2",
+   "latestTag": "v1.0.3",
    "categories": ["Команды"],
    "supportedHosts": [],
    "dependencies": ["parser-keksik"]
