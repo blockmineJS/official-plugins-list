@@ -188,11 +188,79 @@
     ]
   },
   {
+    "id": "ai-chat",
+    "name": "ai-chat",
+    "displayName": "Искусственный Интеллект",
+    "author": "I_Sahorok",
+    "description": "Конфигурируемый ИИ-бот с гибкими настройками. С использованием OpenRouter-Kit",
+    "repoUrl": "https://github.com/d4s4n/ai-chat",
+    "icon": "brain",
+    "latestTag": "v1.1.2",
+    "categories": [
+      "Чат"
+    ],
+    "supportedHosts": []
+  },
+  {
+    "id": "anime-command",
+    "name": "anime-command",
+    "displayName": "Команда аниме",
+    "author": "I_Sahorok",
+    "description": "Добавляет команду для поиска информации об аниме через Shikimori.",
+    "repoUrl": "https://github.com/d4s4n/anime-command",
+    "icon": "paw-print",
+    "latestTag": "v1.0.4",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": []
+  },
+  {
+    "id": "auto-accept-clan",
+    "name": "auto-accept-clan",
+    "displayName": "Авто принятие",
+    "author": "I_Sahorok",
+    "description": "Автоматически принимает игроков в клан, с проверкой на черный список и защиту от спама заявками.",
+    "repoUrl": "https://github.com/d4s4n/auto-accept-clan",
+    "icon": "UserCheck",
+    "latestTag": "v1.0.2",
+    "categories": [
+      "Клан",
+      "Автоматизация"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
+  },
+  {
+    "id": "serverinfo-command",
+    "name": "serverinfo-command",
+    "displayName": "Команда информации о сервере",
+    "author": "I_Sahorok",
+    "description": "Показывает техническую информацию о сервере.",
+    "repoUrl": "https://github.com/d4s4n/serverinfo-command",
+    "icon": "server-cog",
+    "latestTag": "v1.1.0",
+    "categories": [
+      "Команды",
+      "Утилиты"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
+  },
+  {
     "id": "weather-command",
     "name": "weather-command",
     "displayName": "Команда погоды",
     "author": "I_Sahorok",
-    "description": "Добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
+    "description": "Добавляет вашему боту команду, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
     "repoUrl": "https://github.com/d4s4n/weather-command",
     "icon": "cloud-sun",
     "latestTag": "v1.0.0",
