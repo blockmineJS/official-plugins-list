@@ -7,7 +7,10 @@
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
     "latestTag": "v1.0.7",
-    "categories": ["Автоматизация", "Утилиты"],
+    "categories": [
+      "Автоматизация",
+      "Утилиты"
+    ],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -23,7 +26,9 @@
     "repoUrl": "https://github.com/blockmineJS/parser-keksik",
     "icon": "https://raw.githubusercontent.com/blockmineJS/official-plugins-list/main/parser-icon.svg",
     "latestTag": "v1.1.1",
-    "categories": ["Ядро"],
+    "categories": [
+      "Ядро"
+    ],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -39,7 +44,9 @@
     "repoUrl": "https://github.com/blockmineJS/welcome-message",
     "icon": "party-popper",
     "latestTag": "v1.0.2",
-    "categories": ["Чат"],
+    "categories": [
+      "Чат"
+    ],
     "supportedHosts": []
   },
   {
@@ -50,7 +57,10 @@
     "repoUrl": "https://github.com/blockmineJS/autoMessages",
     "icon": "messages-square",
     "latestTag": "v1.0.0",
-    "categories": ["Чат", "Автоматизация"],
+    "categories": [
+      "Чат",
+      "Автоматизация"
+    ],
     "supportedHosts": []
   },
   {
@@ -61,7 +71,10 @@
     "repoUrl": "https://github.com/blockmineJS/clan-events-keksik",
     "icon": "users-2",
     "latestTag": "v1.1.0",
-    "categories": ["Клан", "Ядро"],
+    "categories": [
+      "Клан",
+      "Ядро"
+    ],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
@@ -77,14 +90,20 @@
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
     "icon": "hand-heart",
     "latestTag": "v1.0.5",
-    "categories": ["Клан", "Чат"],
+    "categories": [
+      "Клан",
+      "Чат"
+    ],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
     ],
-    "dependencies": ["clan-events-keksik", "parser-keksik"]
+    "dependencies": [
+      "clan-events-keksik",
+      "parser-keksik"
+    ]
   },
   {
     "id": "clan-role-manager",
@@ -94,9 +113,21 @@
     "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
     "icon": "shield-check",
     "latestTag": "v1.0.3",
-    "categories": ["Ядро", "Клан", "Права"],
-    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"],
-    "dependencies": ["parser-keksik", "clan-events-keksik"]
+    "categories": [
+      "Ядро",
+      "Клан",
+      "Права"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik",
+      "clan-events-keksik"
+    ]
   },
   {
     "id": "anti-tp-keksik",
@@ -105,9 +136,16 @@
     "description": "Возвращает бота в безопасное место после принудительной телепортации от игроков без прав.",
     "repoUrl": "https://github.com/blockmineJS/anti-tp-keksik",
     "icon": "shield-ban",
-    "latestTag": "v1.0.1",
-    "categories": ["Утилиты"],
-    "supportedHosts": ["mc.mineblaze.net", "mc.masedworld.net", "mc.cheatmine.net", "mc.dexland.org"]
+    "latestTag": "v1.0.2",
+    "categories": [
+      "Утилиты"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ]
   },
   {
     "id": "fly-keksik",
@@ -117,36 +155,46 @@
     "repoUrl": "https://github.com/blockmineJS/fly-keksik",
     "icon": "feather",
     "latestTag": "v1.0.5",
-    "categories": ["Команды"],
+    "categories": [
+      "Команды"
+    ],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
     ],
-    "dependencies": ["parser-keksik"]
+    "dependencies": [
+      "parser-keksik"
+    ]
   },
   {
-   "id": "base-commands",
-   "name": "Базове админ команды",
-   "author": "blockmineJS",
-   "description": "Даёт новые команды для использования: setblacklist, setgroup",
-   "repoUrl": "https://github.com/blockmineJS/base-commands",
-   "icon": "sliders-horizontal",
-   "latestTag": "v1.0.3",
-   "categories": ["Команды"],
-   "supportedHosts": [],
-   "dependencies": ["parser-keksik"]
- },
- {
-   "id": "weather-command",
-   "name": "weather-command",
-   "author": "I_Sahorok",
-   "description": "Добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
-   "repoUrl": "https://github.com/d4s4n/weather-command",
-   "icon": "cloud-sun",
-   "latestTag": "v1.0.0",
-   "categories": ["Команды"],
-   "supportedHosts": []
- }
+    "id": "base-commands",
+    "name": "Базове админ команды",
+    "author": "blockmineJS",
+    "description": "Даёт новые команды для использования: setblacklist, setgroup",
+    "repoUrl": "https://github.com/blockmineJS/base-commands",
+    "icon": "sliders-horizontal",
+    "latestTag": "v1.0.3",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "weather-command",
+    "name": "weather-command",
+    "author": "I_Sahorok",
+    "description": "Добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
+    "repoUrl": "https://github.com/d4s4n/weather-command",
+    "icon": "cloud-sun",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": []
+  }
 ]
