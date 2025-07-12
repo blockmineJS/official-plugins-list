@@ -52,6 +52,7 @@
   {
     "id": "auto-messages",
     "name": "auto-messages",
+    "displayName": "Авто сообщения",
     "author": "blockmineJS",
     "description": "Позволяет настраивать отправку циклических сообщений в чат. Идеально для рекламы.",
     "repoUrl": "https://github.com/blockmineJS/autoMessages",
@@ -85,6 +86,7 @@
   {
     "id": "clan-welcome",
     "name": "clan-welcome",
+    "displayName": "Приветствия при вступлении в клан",
     "author": "blockmineJS",
     "description": "Приветствует игроков при входе в клан. Требует установки других плагинов.",
     "repoUrl": "https://github.com/blockmineJS/clan-welcome",
@@ -170,7 +172,8 @@
   },
   {
     "id": "base-commands",
-    "name": "Базове админ команды",
+    "name": "base-commands",
+    "displayName": "Базовые админ команды",
     "author": "blockmineJS",
     "description": "Даёт новые команды для использования: setblacklist, setgroup",
     "repoUrl": "https://github.com/blockmineJS/base-commands",
@@ -187,6 +190,7 @@
   {
     "id": "weather-command",
     "name": "weather-command",
+    "displayName": "Команда погоды",
     "author": "I_Sahorok",
     "description": "Добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
     "repoUrl": "https://github.com/d4s4n/weather-command",
