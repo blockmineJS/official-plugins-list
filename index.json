@@ -184,7 +184,7 @@
     "description": "Даёт новые команды для использования: setblacklist, setgroup",
     "repoUrl": "https://github.com/blockmineJS/base-commands",
     "icon": "sliders-horizontal",
-    "latestTag": "v1.0.3",
+    "latestTag": "v1.0.5",
     "categories": [
       "Команды"
     ],
