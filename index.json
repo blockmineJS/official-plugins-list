@@ -282,7 +282,7 @@
     "icon": "party-popper",
     "latestTag": "v1.4.0",
     "categories": [
-      "Команды",
+      "Команды"
     ],
     "supportedHosts": [],
     "dependencies": []
@@ -297,7 +297,7 @@
     "icon": "square-terminal",
     "latestTag": "v1.0.0",
     "categories": [
-      "Команды",
+      "Команды"
     ],
     "supportedHosts": [],
     "dependencies": []
