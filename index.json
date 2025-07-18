@@ -16,7 +16,8 @@
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
-    ]
+    ],
+    "dependencies": []
   },
   {
     "id": "parser-keksik",
@@ -34,7 +35,8 @@
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
-    ]
+    ],
+    "dependencies": []
   },
   {
     "id": "welcome-message",
@@ -47,7 +49,8 @@
     "categories": [
       "Чат"
     ],
-    "supportedHosts": []
+    "supportedHosts": [],
+    "dependencies": []
   },
   {
     "id": "auto-messages",
@@ -62,7 +65,8 @@
       "Чат",
       "Автоматизация"
     ],
-    "supportedHosts": []
+    "supportedHosts": [],
+    "dependencies": []
   },
   {
     "id": "clan-events-keksik",
@@ -81,7 +85,8 @@
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
-    ]
+    ],
+    "dependencies": []
   },
   {
     "id": "clan-welcome",
@@ -147,7 +152,8 @@
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
-    ]
+    ],
+    "dependencies": []
   },
   {
     "id": "fly-keksik",
@@ -199,21 +205,8 @@
     "categories": [
       "Чат"
     ],
-    "supportedHosts": []
-  },
-  {
-    "id": "anime-command",
-    "name": "anime-command",
-    "displayName": "Команда аниме",
-    "author": "I_Sahorok",
-    "description": "Добавляет команду для поиска информации об аниме через Shikimori.",
-    "repoUrl": "https://github.com/d4s4n/anime-command",
-    "icon": "paw-print",
-    "latestTag": "v1.0.4",
-    "categories": [
-      "Команды"
-    ],
-    "supportedHosts": []
+    "supportedHosts": [],
+    "dependencies": []
   },
   {
     "id": "auto-accept-clan",
@@ -233,6 +226,103 @@
       "mc.masedworld.net",
       "mc.cheatmine.net",
       "mc.dexland.org"
+    ],
+    "dependencies": []
+  },
+  {
+    "id": "checkdeath-command",
+    "name": "checkdeath-command",
+    "displayName": "Команда проверки смертей",
+    "author": "I_Sahorok",
+    "description": "Добавляет команду для автоматической проверки и кика игроков с большим кол-во смертей.",
+    "repoUrl": "https://github.com/d4s4n/checkdeath-command",
+    "icon": "skull",
+    "latestTag": "v1.0.4",
+    "categories": [
+      "Клан",
+      "Автоматизация",
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "fly-and-money-commands",
+    "name": "fly-and-money-commands",
+    "displayName": "Команды Fly и Money",
+    "author": "I_Sahorok",
+    "description": "Добавляет команды fly и money для клана. Только для блейза",
+    "repoUrl": "https://github.com/d4s4n/fly-and-money-commands",
+    "icon": "hammer",
+    "latestTag": "v1.0.7",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "fun-pack-commands",
+    "name": "fun-pack-commands",
+    "displayName": "Набор развлекательных команд",
+    "author": "I_Sahorok",
+    "description": "Большой набор развлекательных и информационных команд.",
+    "repoUrl": "https://github.com/d4s4n/fun-pack-commands",
+    "icon": "party-popper",
+    "latestTag": "v1.4.0",
+    "categories": [
+      "Команды",
+    ],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
+    "id": "help-command",
+    "name": "help-command",
+    "displayName": "Команда Help",
+    "author": "I_Sahorok",
+    "description": "Настраиваемая команда help для отображения списка команд.",
+    "repoUrl": "https://github.com/d4s4n/help-command",
+    "icon": "square-terminal",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Команды",
+    ],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
+    "id": "stats-command",
+    "name": "stats-command",
+    "displayName": "Команда статистики",
+    "author": "I_Sahorok",
+    "description": "Показывает расширенную статистику игрока и вычисляет КДР.",
+    "repoUrl": "https://github.com/d4s4n/stats-command",
+    "icon": "chart-column-increasing",
+    "latestTag": "v1.0.3",
+    "categories": [
+      "Клан",
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik"
     ]
   },
   {
@@ -245,23 +335,34 @@
     "icon": "server-cog",
     "latestTag": "v1.1.0",
     "categories": [
-      "Команды",
-      "Утилиты"
-    ],
-    "supportedHosts": []
-  },
-  {
-    "id": "weather-command",
-    "name": "weather-command",
-    "displayName": "Команда погоды",
-    "author": "I_Sahorok",
-    "description": "Добавляет вашему боту команду, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
-    "repoUrl": "https://github.com/d4s4n/weather-command",
-    "icon": "cloud-sun",
-    "latestTag": "v1.0.0",
-    "categories": [
       "Команды"
     ],
-    "supportedHosts": []
-  }
+    "supportedHosts": [],
+    "dependencies": []
+  },
+{
+  "id": "auto-moderation",
+  "name": "auto-moderation",
+  "displayName": "Авто-модерация",
+  "author": "I_Sahorok/merka",
+  "description": "Система модерации: защита от спама, предупреждения и баны.",
+  "repoUrl": "https://github.com/d4s4n/auto-moderation",
+  "icon": "shield-alert",
+  "latestTag": "v1.4.0",
+  "categories": [
+    "Клан",
+    "Безопасность",
+    "Утилиты"
+  ],
+  "supportedHosts": [
+    "mc.mineblaze.net",
+    "mc.masedworld.net",
+    "mc.cheatmine.net",
+    "mc.dexland.org"
+  ],
+  "dependencies": [
+    "parser-keksik",
+    "clan-events-keksik"
+  ]
+}
 ]
