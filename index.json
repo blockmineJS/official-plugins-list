@@ -295,7 +295,7 @@
     "description": "Настраиваемая команда help для отображения списка команд.",
     "repoUrl": "https://github.com/d4s4n/help-command",
     "icon": "square-terminal",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": [
       "Команды"
     ],
