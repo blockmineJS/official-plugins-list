@@ -310,7 +310,7 @@
     "description": "Показывает расширенную статистику игрока и вычисляет КДР.",
     "repoUrl": "https://github.com/d4s4n/stats-command",
     "icon": "chart-column-increasing",
-    "latestTag": "v1.0.3",
+    "latestTag": "v1.0.4",
     "categories": [
       "Клан",
       "Команды"
