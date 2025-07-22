@@ -364,5 +364,24 @@
     "parser-keksik",
     "clan-events-keksik"
   ]
+},
+  {
+  "id": "money-give",
+  "name": "money-give",
+  "displayName": "money-give",
+  "author": "artemploxoy",
+  "description": "Система модерации: защита от спама, предупреждения и баны.",
+  "repoUrl": "https://github.com/blockmineJS/money-give",
+  "icon": "CircleDollarSign",
+  "latestTag": "v1.0.0",
+  "categories": [
+    "Команды",
+  ],
+  "supportedHosts": [
+    "mc.masedworld.net",
+  ],
+  "dependencies": [
+    "parser-keksik",
+  ]
 }
 ]
