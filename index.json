@@ -261,7 +261,7 @@
     "description": "Добавляет команды fly и money для клана. Только для блейза",
     "repoUrl": "https://github.com/d4s4n/fly-and-money-commands",
     "icon": "hammer",
-    "latestTag": "v1.0.7",
+    "latestTag": "v1.0.8",
     "categories": [
       "Команды"
     ],
