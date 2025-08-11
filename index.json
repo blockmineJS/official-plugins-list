@@ -119,7 +119,7 @@
     "description": "Ядро ролей клана. Автоматически выдает роль 'Member' и настраивает права.",
     "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
     "icon": "shield-check",
-    "latestTag": "v1.0.3",
+    "latestTag": "v1.0.4",
     "categories": [
       "Ядро",
       "Клан",
