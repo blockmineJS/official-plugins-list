@@ -400,5 +400,19 @@
     "mc.masedworld.net"
   ],
   "dependencies": []
+},
+  {
+  "id": "article-command",
+  "name": "article-command",
+  "displayName": "Команда статья",
+  "author": "merka",
+  "description": "фан команда. Назначает игроку случайную статью УК РФ раз в день",
+  "repoUrl": "https://github.com/blockmineJS/article-command",
+  "icon": "Gavel",
+  "latestTag": "v1.0.0",
+  "categories": [
+    "Команды"
+  ],
+  "dependencies": []
 }
 ]
