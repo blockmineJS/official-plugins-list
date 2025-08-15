@@ -340,79 +340,79 @@
     "supportedHosts": [],
     "dependencies": []
   },
-{
-  "id": "auto-moderation",
-  "name": "auto-moderation",
-  "displayName": "Авто-модерация",
-  "author": "I_Sahorok/merka",
-  "description": "Система модерации: защита от спама, предупреждения и баны.",
-  "repoUrl": "https://github.com/d4s4n/auto-moderation",
-  "icon": "shield-alert",
-  "latestTag": "v1.4.0",
-  "categories": [
-    "Клан",
-    "Безопасность",
-    "Утилиты"
-  ],
-  "supportedHosts": [
-    "mc.mineblaze.net",
-    "mc.masedworld.net",
-    "mc.cheatmine.net",
-    "mc.dexland.org"
-  ],
-  "dependencies": [
-    "parser-keksik",
-    "clan-events-keksik"
-  ]
-},
   {
-"id": "money-give",
-"name": "money-give",
-"displayName": "money-give",
-"author": "artemploxoy",
-"description": "Автоматически выдает игроку деньги до установленного лимита по команде @money.",
-"repoUrl": "https://github.com/blockmineJS/money-give",
-"icon": "CircleDollarSign",
-"latestTag": "v1.0.0",
-"categories": [
-  "Команды"
-],
-"supportedHosts": [
-  "mc.masedworld.net"
-],
-"dependencies": [
-  "parser-keksik"
-]
-},
-{
-  "id": "effect-manager",
-  "name": "effect-manager",
-  "displayName": "Эффекты",
-  "author": "artemploxoy",
-  "description": "Управляет выдачей и очисткой эффектов для игроков через команды, включая группы эффектов.",
-  "repoUrl": "https://github.com/blockmineJS/effect-manager",
-  "icon": "Wand",
-  "latestTag": "v1.3.0",
-  "categories": [
-    "Команды"
-  ],
-  "supportedHosts": [
-    "mc.masedworld.net"
-  ],
-  "dependencies": []
-},
+    "id": "auto-moderation",
+    "name": "auto-moderation",
+    "displayName": "Авто-модерация",
+    "author": "I_Sahorok/merka",
+    "description": "Система модерации: защита от спама, предупреждения и баны.",
+    "repoUrl": "https://github.com/d4s4n/auto-moderation",
+    "icon": "shield-alert",
+    "latestTag": "v1.4.0",
+    "categories": [
+      "Клан",
+      "Безопасность",
+      "Утилиты"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik",
+      "clan-events-keksik"
+    ]
+  },
   {
-  "id": "article-command",
-  "name": "article-command",
-  "displayName": "Команда статья",
-  "author": "merka",
-  "description": "фан команда. Назначает игроку случайную статью УК РФ раз в день",
-  "repoUrl": "https://github.com/blockmineJS/article-command",
-  "icon": "Gavel",
-  "latestTag": "v1.0.0",
-  "categories": [
-    "Команды"
-  ],
-  "dependencies": []
-}
+    "id": "money-give",
+    "name": "money-give",
+    "displayName": "money-give",
+    "author": "artemploxoy",
+    "description": "Автоматически выдает игроку деньги до установленного лимита по команде @money.",
+    "repoUrl": "https://github.com/blockmineJS/money-give",
+    "icon": "CircleDollarSign",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.masedworld.net"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "effect-manager",
+    "name": "effect-manager",
+    "displayName": "Эффекты",
+    "author": "artemploxoy",
+    "description": "Управляет выдачей и очисткой эффектов для игроков через команды, включая группы эффектов.",
+    "repoUrl": "https://github.com/blockmineJS/effect-manager",
+    "icon": "Wand",
+    "latestTag": "v1.3.0",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.masedworld.net"
+    ],
+    "dependencies": []
+  },
+  {
+    "id": "article-command",
+    "name": "article-command",
+    "displayName": "Команда статья",
+    "author": "merka",
+    "description": "фан команда. Назначает игроку случайную статью УК РФ раз в день",
+    "repoUrl": "https://github.com/blockmineJS/article-command",
+    "icon": "Gavel",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Команды"
+    ],
+    "dependencies": []
+  }
 ]
