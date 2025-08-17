@@ -414,5 +414,19 @@
       "Команды"
     ],
     "dependencies": []
-  }
+  },
+  {
+    "id": "telegram-pinger",
+    "name": "telegram-pinger",
+    "displayName": "telegram-pinger",
+    "author": "merka",
+    "description": "Отправляет уведомления в Telegram при упоминании бота в чате.",
+    "repoUrl": "https://github.com/blockmineJS/telegram-pinger",
+    "icon": "Send",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Утилиты"
+    ],
+    "dependencies": []
+  },
 ]
