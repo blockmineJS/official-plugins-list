@@ -423,7 +423,7 @@
     "description": "Отправляет уведомления в Telegram при упоминании бота в чате.",
     "repoUrl": "https://github.com/blockmineJS/telegram-pinger",
     "icon": "Send",
-    "latestTag": "v1.0.1",
+    "latestTag": "v1.0.2",
     "categories": [
       "Утилиты"
     ],
