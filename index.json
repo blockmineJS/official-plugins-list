@@ -6,7 +6,7 @@
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал.",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
     "icon": "key-round",
-    "latestTag": "v1.0.9",
+    "latestTag": "v1.1.0",
     "categories": [
       "Авторизация"
     ],
