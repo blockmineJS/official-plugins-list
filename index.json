@@ -415,18 +415,6 @@
     "dependencies": []
   },
   {
-    "id": "test2",
-    "name": "test2",
-    "author": "mmeerrkkaa",
-    "description": "",
-    "repoUrl": "https://github.com/mmeerrkkaa/test2",
-    "icon": "chart-bar",
-    "latestTag": "v1.0.0",
-    "categories": [],
-    "supportedHosts": [],
-    "dependencies": []
-  },
-  {
     "id": "welcome-message",
     "name": "welcome-message",
     "author": "blockmineJS",
