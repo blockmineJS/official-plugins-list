@@ -1,139 +1,18 @@
 [
   {
-    "id": "auth-keksik-servers",
-    "name": "auth-keksik-servers",
-    "author": "FurnyGo/merka",
-    "description": "Плагин для автоматической регистрации/авторизации и захода на портал.",
-    "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
-    "icon": "key-round",
-    "latestTag": "v1.1.1",
-    "categories": [
-      "Авторизация"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": []
-  },
-  {
-    "id": "parser-keksik",
-    "name": "parser-keksik",
-    "author": "blockmineJS",
-    "description": "Парсит сообщения чата, генерируя стандартизированные события. Обязателен для многих плагинов для MineBlaze, MasedWorld, DexLand, CheatMine. Добавляет новые типы чата - global, clan",
-    "repoUrl": "https://github.com/blockmineJS/parser-keksik",
-    "icon": "https://raw.githubusercontent.com/blockmineJS/official-plugins-list/main/parser-icon.svg",
-    "latestTag": "v1.1.2",
-    "categories": [
-      "Ядро"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": []
-  },
-  {
-    "id": "welcome-message",
-    "name": "welcome-message",
-    "author": "blockmineJS",
-    "description": "Отправляет приветствие, когда в игру заходит игрок из настроенного списка.",
-    "repoUrl": "https://github.com/blockmineJS/welcome-message",
-    "icon": "party-popper",
-    "latestTag": "v1.0.2",
+    "id": "ai-chat",
+    "name": "ai-chat",
+    "displayName": "Искусственный Интеллект",
+    "author": "I_Sahorok",
+    "description": "Конфигурируемый ИИ-бот с гибкими настройками. С использованием OpenRouter-Kit",
+    "repoUrl": "https://github.com/d4s4n/ai-chat",
+    "icon": "brain",
+    "latestTag": "v2.0.1",
     "categories": [
       "Чат"
     ],
     "supportedHosts": [],
     "dependencies": []
-  },
-  {
-    "id": "auto-messages",
-    "name": "auto-messages",
-    "displayName": "Авто сообщения",
-    "author": "blockmineJS",
-    "description": "Позволяет настраивать отправку циклических сообщений в чат. Идеально для рекламы.",
-    "repoUrl": "https://github.com/blockmineJS/autoMessages",
-    "icon": "messages-square",
-    "latestTag": "v1.0.0",
-    "categories": [
-      "Чат",
-      "Автоматизация"
-    ],
-    "supportedHosts": [],
-    "dependencies": []
-  },
-  {
-    "id": "clan-events-keksik",
-    "name": "clan-events-keksik",
-    "author": "blockmineJS",
-    "description": "Системный плагин-парсер, который генерирует события о входе и выходе игроков из клана.",
-    "repoUrl": "https://github.com/blockmineJS/clan-events-keksik",
-    "icon": "users-2",
-    "latestTag": "v1.1.0",
-    "categories": [
-      "Клан",
-      "Ядро"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": []
-  },
-  {
-    "id": "clan-welcome",
-    "name": "clan-welcome",
-    "displayName": "Приветствия при вступлении в клан",
-    "author": "blockmineJS",
-    "description": "Приветствует игроков при входе в клан. Требует установки других плагинов.",
-    "repoUrl": "https://github.com/blockmineJS/clan-welcome",
-    "icon": "hand-heart",
-    "latestTag": "v1.0.5",
-    "categories": [
-      "Клан",
-      "Чат"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": [
-      "clan-events-keksik",
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "clan-role-manager",
-    "name": "clan-role-manager",
-    "author": "blockmineJS",
-    "description": "Ядро ролей клана. Автоматически выдает роль 'Member' и настраивает права.",
-    "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
-    "icon": "shield-check",
-    "latestTag": "v1.0.4",
-    "categories": [
-      "Ядро",
-      "Клан",
-      "Права"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": [
-      "parser-keksik",
-      "clan-events-keksik"
-    ]
   },
   {
     "id": "anti-tp-keksik",
@@ -155,15 +34,29 @@
     "dependencies": []
   },
   {
-    "id": "fly-keksik",
-    "name": "fly-keksik",
-    "author": "blockmineJS",
-    "description": "Добавляет команду /fly для серверов MineBlaze, MasedWorld, DexLand, CheatMine. Сама обрабатывает если кд. можно настраивать сообщения",
-    "repoUrl": "https://github.com/blockmineJS/fly-keksik",
-    "icon": "feather",
-    "latestTag": "v1.0.5",
+    "id": "article-command",
+    "name": "article-command",
+    "displayName": "Команда статья",
+    "author": "merka",
+    "description": "фан команда. Назначает игроку случайную статью УК РФ раз в день",
+    "repoUrl": "https://github.com/blockmineJS/article-command",
+    "icon": "Gavel",
+    "latestTag": "v1.0.0",
     "categories": [
       "Команды"
+    ],
+    "dependencies": []
+  },
+  {
+    "id": "auth-keksik-servers",
+    "name": "auth-keksik-servers",
+    "author": "FurnyGo/merka",
+    "description": "Плагин для автоматической регистрации/авторизации и захода на портал.",
+    "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
+    "icon": "key-round",
+    "latestTag": "v1.1.1",
+    "categories": [
+      "Авторизация"
     ],
     "supportedHosts": [
       "mc.mineblaze.net",
@@ -171,40 +64,6 @@
       "mc.cheatmine.net",
       "mc.dexland.org"
     ],
-    "dependencies": [
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "base-commands",
-    "name": "base-commands",
-    "displayName": "Базовые админ команды",
-    "author": "blockmineJS",
-    "description": "Даёт новые команды для использования: setblacklist, setgroup",
-    "repoUrl": "https://github.com/blockmineJS/base-commands",
-    "icon": "sliders-horizontal",
-    "latestTag": "v1.0.5",
-    "categories": [
-      "Команды"
-    ],
-    "supportedHosts": [],
-    "dependencies": [
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "ai-chat",
-    "name": "ai-chat",
-    "displayName": "Искусственный Интеллект",
-    "author": "I_Sahorok",
-    "description": "Конфигурируемый ИИ-бот с гибкими настройками. С использованием OpenRouter-Kit",
-    "repoUrl": "https://github.com/d4s4n/ai-chat",
-    "icon": "brain",
-    "latestTag": "v2.0.1",
-    "categories": [
-      "Чат"
-    ],
-    "supportedHosts": [],
     "dependencies": []
   },
   {
@@ -229,112 +88,17 @@
     "dependencies": []
   },
   {
-    "id": "checkdeath-command",
-    "name": "checkdeath-command",
-    "displayName": "Команда проверки смертей",
-    "author": "I_Sahorok",
-    "description": "Добавляет команду для автоматической проверки и кика игроков с большим кол-во смертей.",
-    "repoUrl": "https://github.com/d4s4n/checkdeath-command",
-    "icon": "skull",
-    "latestTag": "v1.0.4",
+    "id": "auto-messages",
+    "name": "auto-messages",
+    "displayName": "Авто сообщения",
+    "author": "blockmineJS",
+    "description": "Позволяет настраивать отправку циклических сообщений в чат. Идеально для рекламы.",
+    "repoUrl": "https://github.com/blockmineJS/autoMessages",
+    "icon": "messages-square",
+    "latestTag": "v1.0.0",
     "categories": [
-      "Клан",
-      "Автоматизация",
-      "Команды"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": [
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "fly-and-money-commands",
-    "name": "fly-and-money-commands",
-    "displayName": "Команды Fly и Money",
-    "author": "I_Sahorok",
-    "description": "Добавляет команды fly и money для клана. Только для блейза",
-    "repoUrl": "https://github.com/d4s4n/fly-and-money-commands",
-    "icon": "hammer",
-    "latestTag": "v1.0.8",
-    "categories": [
-      "Команды"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net"
-    ],
-    "dependencies": [
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "fun-pack-commands",
-    "name": "fun-pack-commands",
-    "displayName": "Набор развлекательных команд",
-    "author": "I_Sahorok",
-    "description": "Большой набор развлекательных и информационных команд.",
-    "repoUrl": "https://github.com/d4s4n/fun-pack-commands",
-    "icon": "party-popper",
-    "latestTag": "v1.4.0",
-    "categories": [
-      "Команды"
-    ],
-    "supportedHosts": [],
-    "dependencies": []
-  },
-  {
-    "id": "help-command",
-    "name": "help-command",
-    "displayName": "Команда Help",
-    "author": "I_Sahorok",
-    "description": "Настраиваемая команда help для отображения списка команд.",
-    "repoUrl": "https://github.com/d4s4n/help-command",
-    "icon": "square-terminal",
-    "latestTag": "v1.0.1",
-    "categories": [
-      "Команды"
-    ],
-    "supportedHosts": [],
-    "dependencies": []
-  },
-  {
-    "id": "stats-command",
-    "name": "stats-command",
-    "displayName": "Команда статистики",
-    "author": "I_Sahorok",
-    "description": "Показывает расширенную статистику игрока и вычисляет КДР.",
-    "repoUrl": "https://github.com/d4s4n/stats-command",
-    "icon": "chart-column-increasing",
-    "latestTag": "v1.0.5",
-    "categories": [
-      "Клан",
-      "Команды"
-    ],
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
-    "dependencies": [
-      "parser-keksik"
-    ]
-  },
-  {
-    "id": "serverinfo-command",
-    "name": "serverinfo-command",
-    "displayName": "Команда информации о сервере",
-    "author": "I_Sahorok",
-    "description": "Показывает техническую информацию о сервере.",
-    "repoUrl": "https://github.com/d4s4n/serverinfo-command",
-    "icon": "server-cog",
-    "latestTag": "v1.1.0",
-    "categories": [
-      "Команды"
+      "Чат",
+      "Автоматизация"
     ],
     "supportedHosts": [],
     "dependencies": []
@@ -365,21 +129,111 @@
     ]
   },
   {
-    "id": "money-give",
-    "name": "money-give",
-    "displayName": "money-give",
-    "author": "artemploxoy",
-    "description": "Автоматически выдает игроку деньги до установленного лимита по команде @money.",
-    "repoUrl": "https://github.com/blockmineJS/money-give",
-    "icon": "CircleDollarSign",
-    "latestTag": "v1.0.0",
+    "id": "base-commands",
+    "name": "base-commands",
+    "displayName": "Базовые админ команды",
+    "author": "blockmineJS",
+    "description": "Даёт новые команды для использования: setblacklist, setgroup",
+    "repoUrl": "https://github.com/blockmineJS/base-commands",
+    "icon": "sliders-horizontal",
+    "latestTag": "v1.0.5",
     "categories": [
       "Команды"
     ],
+    "supportedHosts": [],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "checkdeath-command",
+    "name": "checkdeath-command",
+    "displayName": "Команда проверки смертей",
+    "author": "I_Sahorok",
+    "description": "Добавляет команду для автоматической проверки и кика игроков с большим кол-во смертей.",
+    "repoUrl": "https://github.com/d4s4n/checkdeath-command",
+    "icon": "skull",
+    "latestTag": "v1.0.4",
+    "categories": [
+      "Клан",
+      "Автоматизация",
+      "Команды"
+    ],
     "supportedHosts": [
-      "mc.masedworld.net"
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
     ],
     "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "clan-events-keksik",
+    "name": "clan-events-keksik",
+    "author": "blockmineJS",
+    "description": "Системный плагин-парсер, который генерирует события о входе и выходе игроков из клана.",
+    "repoUrl": "https://github.com/blockmineJS/clan-events-keksik",
+    "icon": "users-2",
+    "latestTag": "v1.1.0",
+    "categories": [
+      "Клан",
+      "Ядро"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": []
+  },
+  {
+    "id": "clan-role-manager",
+    "name": "clan-role-manager",
+    "author": "blockmineJS",
+    "description": "Ядро ролей клана. Автоматически выдает роль 'Member' и настраивает права.",
+    "repoUrl": "https://github.com/blockmineJS/clan-role-manager",
+    "icon": "shield-check",
+    "latestTag": "v1.0.4",
+    "categories": [
+      "Ядро",
+      "Клан",
+      "Права"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik",
+      "clan-events-keksik"
+    ]
+  },
+  {
+    "id": "clan-welcome",
+    "name": "clan-welcome",
+    "displayName": "Приветствия при вступлении в клан",
+    "author": "blockmineJS",
+    "description": "Приветствует игроков при входе в клан. Требует установки других плагинов.",
+    "repoUrl": "https://github.com/blockmineJS/clan-welcome",
+    "icon": "hand-heart",
+    "latestTag": "v1.0.5",
+    "categories": [
+      "Клан",
+      "Чат"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "clan-events-keksik",
       "parser-keksik"
     ]
   },
@@ -401,18 +255,147 @@
     "dependencies": []
   },
   {
-    "id": "article-command",
-    "name": "article-command",
-    "displayName": "Команда статья",
-    "author": "merka",
-    "description": "фан команда. Назначает игроку случайную статью УК РФ раз в день",
-    "repoUrl": "https://github.com/blockmineJS/article-command",
-    "icon": "Gavel",
+    "id": "fly-and-money-commands",
+    "name": "fly-and-money-commands",
+    "displayName": "Команды Fly и Money",
+    "author": "I_Sahorok",
+    "description": "Добавляет команды fly и money для клана. Только для блейза",
+    "repoUrl": "https://github.com/d4s4n/fly-and-money-commands",
+    "icon": "hammer",
+    "latestTag": "v1.0.8",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "fly-keksik",
+    "name": "fly-keksik",
+    "author": "blockmineJS",
+    "description": "Добавляет команду /fly для серверов MineBlaze, MasedWorld, DexLand, CheatMine. Сама обрабатывает если кд. можно настраивать сообщения",
+    "repoUrl": "https://github.com/blockmineJS/fly-keksik",
+    "icon": "feather",
+    "latestTag": "v1.0.5",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "fun-pack-commands",
+    "name": "fun-pack-commands",
+    "displayName": "Набор развлекательных команд",
+    "author": "I_Sahorok",
+    "description": "Большой набор развлекательных и информационных команд.",
+    "repoUrl": "https://github.com/d4s4n/fun-pack-commands",
+    "icon": "party-popper",
+    "latestTag": "v1.4.0",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
+    "id": "help-command",
+    "name": "ввфыв",
+    "author": "I_Sahorok",
+    "description": "Настраиваемая команда help для отображения списка команд.",
+    "repoUrl": "https://github.com/d4s4n/help-command",
+    "icon": "key-round",
+    "latestTag": "v1.0.1",
+    "categories": [],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
+    "id": "money-give",
+    "name": "money-give",
+    "displayName": "money-give",
+    "author": "artemploxoy",
+    "description": "Автоматически выдает игроку деньги до установленного лимита по команде @money.",
+    "repoUrl": "https://github.com/blockmineJS/money-give",
+    "icon": "CircleDollarSign",
     "latestTag": "v1.0.0",
     "categories": [
       "Команды"
     ],
+    "supportedHosts": [
+      "mc.masedworld.net"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
+  },
+  {
+    "id": "parser-keksik",
+    "name": "parser-keksik",
+    "author": "blockmineJS",
+    "description": "Парсит сообщения чата, генерируя стандартизированные события. Обязателен для многих плагинов для MineBlaze, MasedWorld, DexLand, CheatMine. Добавляет новые типы чата - global, clan",
+    "repoUrl": "https://github.com/blockmineJS/parser-keksik",
+    "icon": "https://raw.githubusercontent.com/blockmineJS/official-plugins-list/main/parser-icon.svg",
+    "latestTag": "v1.1.2",
+    "categories": [
+      "Ядро"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
     "dependencies": []
+  },
+  {
+    "id": "serverinfo-command",
+    "name": "serverinfo-command",
+    "displayName": "Команда информации о сервере",
+    "author": "I_Sahorok",
+    "description": "Показывает техническую информацию о сервере.",
+    "repoUrl": "https://github.com/d4s4n/serverinfo-command",
+    "icon": "server-cog",
+    "latestTag": "v1.1.0",
+    "categories": [
+      "Команды"
+    ],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
+    "id": "stats-command",
+    "name": "stats-command",
+    "displayName": "Команда статистики",
+    "author": "I_Sahorok",
+    "description": "Показывает расширенную статистику игрока и вычисляет КДР.",
+    "repoUrl": "https://github.com/d4s4n/stats-command",
+    "icon": "chart-column-increasing",
+    "latestTag": "v1.0.5",
+    "categories": [
+      "Клан",
+      "Команды"
+    ],
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": [
+      "parser-keksik"
+    ]
   },
   {
     "id": "telegram-pinger",
@@ -426,6 +409,20 @@
     "categories": [
       "Утилиты"
     ],
+    "dependencies": []
+  },
+  {
+    "id": "welcome-message",
+    "name": "welcome-message",
+    "author": "blockmineJS",
+    "description": "Отправляет приветствие, когда в игру заходит игрок из настроенного списка.",
+    "repoUrl": "https://github.com/blockmineJS/welcome-message",
+    "icon": "party-popper",
+    "latestTag": "v1.0.2",
+    "categories": [
+      "Чат"
+    ],
+    "supportedHosts": [],
     "dependencies": []
   }
 ]
