@@ -418,11 +418,13 @@
     "id": "test2",
     "name": "test2",
     "author": "mmeerrkkaa",
-    "description": "",
+    "description": "вфыв",
     "repoUrl": "https://github.com/mmeerrkkaa/test2",
     "icon": "chart-bar",
-    "latestTag": "v1.0.0",
-    "categories": [],
+    "latestTag": "v1.0.1",
+    "categories": [
+      "Чат"
+    ],
     "supportedHosts": [],
     "dependencies": []
   },
