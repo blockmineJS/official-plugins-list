@@ -2,17 +2,18 @@
   {
     "id": "ai-chat",
     "name": "ai-chat",
-    "displayName": "Искусственный Интеллект",
-    "author": "I_Sahorok",
-    "description": "Конфигурируемый ИИ-бот с гибкими настройками. С использованием OpenRouter-Kit",
+    "author": "I_Sahorok/merka",
+    "description": "Конфигурируемый ИИ-бот с поддержкой нескольких провайдеров (OpenRouter, Google AI).",
     "repoUrl": "https://github.com/d4s4n/ai-chat",
-    "icon": "brain",
-    "latestTag": "v2.0.1",
+    "icon": "brain-circuit",
+    "latestTag": "v3.0.0",
     "categories": [
       "Чат"
     ],
     "supportedHosts": [],
-    "dependencies": []
+    "dependencies": {
+      "parser-keksik": "*"
+    }
   },
   {
     "id": "anti-tp-keksik",
