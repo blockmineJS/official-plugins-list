@@ -6,7 +6,7 @@
     "description": "Конфигурируемый ИИ-бот с поддержкой нескольких провайдеров (OpenRouter, Google AI).",
     "repoUrl": "https://github.com/d4s4n/ai-chat",
     "icon": "brain-circuit",
-    "latestTag": "v3.0.0",
+    "latestTag": "v4.0.0",
     "categories": [
       "Чат"
     ],
