@@ -309,6 +309,21 @@
     "dependencies": []
   },
   {
+    "id": "funtime-captcha-verifed",
+    "name": "FunTime Авто прохождение капчи",
+    "author": "merka",
+    "description": "Плагин для автоматического решения капч на сервере FunTime",
+    "repoUrl": "https://github.com/mmeerrkkaa/funtime-captcha-verifed",
+    "icon": "Camera",
+    "latestTag": "v1.0.0",
+    "categories": [],
+    "supportedHosts": [
+      "mc.funtime.su",
+      "play.funtime.su"
+    ],
+    "dependencies": []
+  },
+  {
     "id": "help-command",
     "name": "help-command",
     "displayName": "Команда Help",
