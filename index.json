@@ -310,12 +310,12 @@
   },
   {
     "id": "funtime-captcha-verifed",
-    "name": "FunTime Авто прохождение капчи",
+    "name": "funtime-captcha-verifed",
     "author": "merka",
     "description": "Плагин для автоматического решения капч на сервере FunTime",
     "repoUrl": "https://github.com/mmeerrkkaa/funtime-captcha-verifed",
     "icon": "Camera",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": [],
     "supportedHosts": [
       "mc.funtime.su",
