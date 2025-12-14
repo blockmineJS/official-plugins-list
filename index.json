@@ -358,6 +358,21 @@
     ]
   },
   {
+    "id": "parser-funtime",
+    "name": "parser-funtime",
+    "author": "merka",
+    "description": "Парсер чата для серверов FunTime. Поддерживает локальный, глобальный, клановый и приватный чаты.",
+    "repoUrl": "https://github.com/mmeerrkkaa/parser-funtime",
+    "icon": "MessageSquare",
+    "latestTag": "v1.0.0",
+    "categories": [],
+    "supportedHosts": [
+      "mc.funtime.su",
+      "funtime.su"
+    ],
+    "dependencies": []
+  },
+  {
     "id": "parser-keksik",
     "name": "parser-keksik",
     "author": "blockmineJS",
