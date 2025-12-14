@@ -315,7 +315,7 @@
     "description": "Плагин для автоматического решения капч на сервере FunTime",
     "repoUrl": "https://github.com/mmeerrkkaa/funtime-captcha-verifed",
     "icon": "Camera",
-    "latestTag": "v1.0.3",
+    "latestTag": "v1.0.4",
     "categories": [],
     "supportedHosts": [
       "mc.funtime.su",
