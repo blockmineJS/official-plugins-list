@@ -363,7 +363,7 @@
     "description": "Парсер чата для серверов FunTime. Поддерживает локальный, глобальный, клановый и приватный чаты.",
     "repoUrl": "https://github.com/mmeerrkkaa/parser-funtime",
     "icon": "MessageSquare",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": [],
     "supportedHosts": [
       "mc.funtime.su",
