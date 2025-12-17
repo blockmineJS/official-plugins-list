@@ -52,17 +52,15 @@
     "author": "FurnyGo/merka/artemploxoy",
     "description": "Плагин для автоматической регистрации/авторизации и захода на портал на серверах MineBlaze, MasedWorld, DexLand, CheatMine, FunTime",
     "repoUrl": "https://github.com/blockmineJS/auth-keksik-servers",
-    "icon": "key-round",
-    "latestTag": "v1.2.2",
-    "categories": [
-      "Авторизация"
-    ],
+    "icon": "package",
+    "latestTag": "v1.2.3",
+    "categories": [],
     "supportedHosts": [
       "mc.mineblaze.net",
       "mc.masedworld.net",
-      "mc.cheatmine.net",
       "mc.dexland.org",
-      "funtime.su"
+      "mc.cheatmine.net",
+      "mc.funtime.su"
     ],
     "dependencies": []
   },
