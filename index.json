@@ -14,6 +14,18 @@
     "dependencies": []
   },
   {
+    "id": "anti-afk",
+    "name": "anti-afk",
+    "author": "artemploxoy",
+    "description": "Плагин для предотвращения кика за неактивность. Бот автоматически выполняет различные действия каждые N секунд.",
+    "repoUrl": "https://github.com/artemploxoyy/anti-afk",
+    "icon": "Activity",
+    "latestTag": "1.3.0",
+    "categories": [],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
     "id": "anti-tp-keksik",
     "name": "anti-tp-keksik",
     "author": "blockmineJS",
