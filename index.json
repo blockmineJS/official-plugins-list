@@ -1,5 +1,19 @@
 [
   {
+    "id": "account-rotator",
+    "name": "account-rotator",
+    "author": "merka",
+    "description": "Плагин для автоматической ротации аккаунтов бота. Позволяет менять username и password.",
+    "repoUrl": "https://github.com/mmeerrkkaa/account-rotator",
+    "icon": "RefreshCw",
+    "latestTag": "v1.0.0",
+    "categories": [
+      "Utility"
+    ],
+    "supportedHosts": [],
+    "dependencies": []
+  },
+  {
     "id": "ai-chat",
     "name": "ai-chat",
     "author": "I_Sahorok/merka",
