@@ -6,7 +6,7 @@
     "description": "Плагин для автоматической ротации аккаунтов бота. Позволяет менять username и password.",
     "repoUrl": "https://github.com/mmeerrkkaa/account-rotator",
     "icon": "RefreshCw",
-    "latestTag": "v1.0.0",
+    "latestTag": "v1.0.1",
     "categories": [
       "Utility"
     ],
