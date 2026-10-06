@@ -545,6 +545,22 @@
   ],
   "unofficial": [
     {
+      "id": "custom-clan-death",
+      "name": "custom-clan-death",
+      "displayName": "custom-clan-death",
+      "author": "Amnesia",
+      "description": "Отправляет кастомные сообщения в клан-чат при смерти определенных игроков.",
+      "repoUrl": "https://github.com/krok98842-ux/custom-clan-death",
+      "icon": "Skull",
+      "latestTag": "v1.0.1",
+      "categories": [
+        "Чат",
+        "Автоматизация"
+      ],
+      "supportedHosts": [],
+      "dependencies": []
+    },
+    {
       "id": "testunofficial",
       "name": "testunofficial",
       "displayName": "testunofficial",
