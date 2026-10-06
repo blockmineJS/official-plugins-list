@@ -55,6 +55,8 @@ function inspect(baseData, headData, authorLogin) {
         const previous = baseById.get(entry.id);
         if (previous && same(previous, entry)) continue;
         if (repoOwner(entry.repoUrl) !== author) return { ok: false, reason: 'author-mismatch' };
+        if (previous && repoOwner(previous.repoUrl) !== author) return { ok: false, reason: 'entry-taken' };
+        if (base.official.some((item) => item && item.id === entry.id)) return { ok: false, reason: 'official-id' };
     }
 
     let removedOwn = false;
@@ -87,7 +89,7 @@ async function accept({ github, context, core }) {
     });
 
     if (files.length !== 1 || files[0].filename !== 'index.json') {
-        core.notice('PR РјРµРЅСЏРµС‚ РЅРµ С‚РѕР»СЊРєРѕ index.json, Р°РІС‚РѕРїСЂРёС‘Рј РїСЂРѕРїСѓС‰РµРЅ.');
+        core.notice('PR меняет не только index.json, автоприём пропущен.');
         return { merged: false, reason: 'files' };
     }
 
@@ -106,7 +108,7 @@ async function accept({ github, context, core }) {
 
     const decision = inspect(decodeContent(baseFile.data), decodeContent(headFile.data), pr.user.login);
     if (!decision.ok) {
-        core.notice(`РђРІС‚РѕРїСЂРёС‘Рј РїСЂРѕРїСѓС‰РµРЅ: ${decision.reason}`);
+        core.notice(`Автоприём пропущен: ${decision.reason}`);
         return { merged: false, reason: decision.reason };
     }
 
@@ -115,7 +117,7 @@ async function accept({ github, context, core }) {
         repo,
         pull_number: pr.number,
         event: 'APPROVE',
-        body: 'РќРµРѕС„РёС†РёР°Р»СЊРЅР°СЏ Р·Р°РїРёСЃСЊ СЃРѕРІРїР°РґР°РµС‚ СЃ Р°РІС‚РѕСЂРѕРј СЂРµРїРѕР·РёС‚РѕСЂРёСЏ. РћС„РёС†РёР°Р»СЊРЅС‹Р№ СЂР°Р·РґРµР» РЅРµ РёР·РјРµРЅС‘РЅ.',
+        body: 'Неофициальная запись совпадает с автором репозитория. Официальный раздел не изменён.',
     });
     await github.rest.pulls.merge({
         owner,
@@ -123,7 +125,7 @@ async function accept({ github, context, core }) {
         pull_number: pr.number,
         merge_method: 'squash',
     });
-    core.notice(`PR #${pr.number} РїСЂРёРЅСЏС‚ РєР°Рє РЅРµРѕС„РёС†РёР°Р»СЊРЅС‹Р№ РїР»Р°РіРёРЅ.`);
+    core.notice(`PR #${pr.number} принят как неофициальный плагин.`);
     return { merged: true };
 }
 
