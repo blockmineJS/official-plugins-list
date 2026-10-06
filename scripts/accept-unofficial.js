@@ -57,11 +57,14 @@ function inspect(baseData, headData, authorLogin) {
         if (repoOwner(entry.repoUrl) !== author) return { ok: false, reason: 'author-mismatch' };
     }
 
+    let removedOwn = false;
     for (const id of baseById.keys()) {
-        if (!seen.has(id)) return { ok: false, reason: 'entry-removed' };
+        if (seen.has(id)) continue;
+        if (repoOwner(baseById.get(id)?.repoUrl) !== author) return { ok: false, reason: 'entry-removed' };
+        removedOwn = true;
     }
 
-    const changed = head.unofficial.some((entry) => {
+    const changed = removedOwn || head.unofficial.some((entry) => {
         const previous = baseById.get(entry.id);
         return !previous || !same(previous, entry);
     });
@@ -84,7 +87,7 @@ async function accept({ github, context, core }) {
     });
 
     if (files.length !== 1 || files[0].filename !== 'index.json') {
-        core.notice('PR меняет не только index.json, автоприём пропущен.');
+        core.notice('PR РјРµРЅСЏРµС‚ РЅРµ С‚РѕР»СЊРєРѕ index.json, Р°РІС‚РѕРїСЂРёС‘Рј РїСЂРѕРїСѓС‰РµРЅ.');
         return { merged: false, reason: 'files' };
     }
 
@@ -103,7 +106,7 @@ async function accept({ github, context, core }) {
 
     const decision = inspect(decodeContent(baseFile.data), decodeContent(headFile.data), pr.user.login);
     if (!decision.ok) {
-        core.notice(`Автоприём пропущен: ${decision.reason}`);
+        core.notice(`РђРІС‚РѕРїСЂРёС‘Рј РїСЂРѕРїСѓС‰РµРЅ: ${decision.reason}`);
         return { merged: false, reason: decision.reason };
     }
 
@@ -112,7 +115,7 @@ async function accept({ github, context, core }) {
         repo,
         pull_number: pr.number,
         event: 'APPROVE',
-        body: 'Неофициальная запись совпадает с автором репозитория. Официальный раздел не изменён.',
+        body: 'РќРµРѕС„РёС†РёР°Р»СЊРЅР°СЏ Р·Р°РїРёСЃСЊ СЃРѕРІРїР°РґР°РµС‚ СЃ Р°РІС‚РѕСЂРѕРј СЂРµРїРѕР·РёС‚РѕСЂРёСЏ. РћС„РёС†РёР°Р»СЊРЅС‹Р№ СЂР°Р·РґРµР» РЅРµ РёР·РјРµРЅС‘РЅ.',
     });
     await github.rest.pulls.merge({
         owner,
@@ -120,7 +123,7 @@ async function accept({ github, context, core }) {
         pull_number: pr.number,
         merge_method: 'squash',
     });
-    core.notice(`PR #${pr.number} принят как неофициальный плагин.`);
+    core.notice(`PR #${pr.number} РїСЂРёРЅСЏС‚ РєР°Рє РЅРµРѕС„РёС†РёР°Р»СЊРЅС‹Р№ РїР»Р°РіРёРЅ.`);
     return { merged: true };
 }
 
