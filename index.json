@@ -559,19 +559,6 @@
       ],
       "supportedHosts": [],
       "dependencies": []
-    },
-    {
-      "id": "testunofficial",
-      "name": "testunofficial",
-      "displayName": "testunofficial",
-      "author": "merka",
-      "description": "Нет описания.",
-      "repoUrl": "https://github.com/mmeerrkkaa/testunofficial",
-      "icon": "check",
-      "latestTag": "v1.0.2",
-      "categories": [],
-      "supportedHosts": [],
-      "dependencies": []
     }
   ]
 }
