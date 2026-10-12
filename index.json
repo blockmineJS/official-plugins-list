@@ -545,6 +545,22 @@
   ],
   "unofficial": [
     {
+      "id": "auto-gamemode",
+      "name": "auto-gamemode",
+      "displayName": "auto-gamemode",
+      "author": "artemploxoy",
+      "description": "Автоматически возвращает установленный игровой режим, если кто-то его сменил.",
+      "repoUrl": "https://github.com/artemploxoy1/auto-gamemode",
+      "icon": "ShieldCheck",
+      "latestTag": "v1.0.0",
+      "categories": [
+        "Автоматизация",
+        "Утилиты"
+      ],
+      "supportedHosts": [],
+      "dependencies": []
+    },
+    {
       "id": "custom-clan-death",
       "name": "custom-clan-death",
       "displayName": "custom-clan-death",
